@@ -33,10 +33,10 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
+  --bs-primary: #bc1a93;
+  --bs-secondary: #4c2c50;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #f00d8a;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
@@ -7713,7 +7713,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #4E004E !important;
 }
 
 .text-success {
@@ -7799,12 +7799,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #B000AE !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #2B002B !important;
 }
 
 .bg-success {
@@ -11308,9 +11308,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #4E004E;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #4E004E;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -11463,7 +11463,6 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11491,17 +11490,33 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  text-align: center;
+  background-color: #2B002B;
   color: #fff;
 }
 
-.copyright {
-  background-color: #1a252f;
+
+
+
+.portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #7C007C;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
+.portfolio-item:hover .portfolio-item-caption {
+  opacity: 1;
+}
 
-
-
-
-
-
+.caption-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
