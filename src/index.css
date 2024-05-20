@@ -11312,6 +11312,67 @@ html {
   border-radius: 1rem;
   border-color: #4E004E;
 }
+/*Acerca de mi */ 
+
+.divider-custom .divider-custom-line2 {
+  width: 100%;
+  max-width: 13rem;
+  height: 0.25rem;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  border-radius: 1rem;
+  border-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* Home */
+.divider-custom .divider-custom-line3 {
+  width: 100%;
+  max-width: 25rem;
+  height: 0.25rem;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  border-radius: 1rem;
+  border-color: #4E004E;
+}
+
+/* Experiencia */
+.divider-custom .divider-custom-line4 {
+  width: 100%;
+  max-width: 16rem;
+  height: 0.25rem;
+  background-color: #4E004E !important;
+  border-radius: 1rem;
+  border-color: #4E004E;
+}
+
+/* Conocimientos */
+.divider-custom .divider-custom-line5 {
+  width: 100%;
+  max-width: 25rem;
+  height: 0.25rem;
+  background-color: #4E004E !important;
+  border-radius: 1rem;
+  border-color: #4E004E;
+}
+
+/* Educación */
+.divider-custom .divider-custom-line6 {
+  width: 100%;
+  max-width: 17rem;
+  height: 0.25rem;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  border-radius: 1rem;
+  border-color: #4E004E;
+}
+
+/* Contacto  */
+.divider-custom .divider-custom-line7 {
+  width: 100%;
+  max-width: 20rem;
+  height: 0.25rem;
+  background-color: #4E004E;
+  border-radius: 1rem;
+  border-color: #4E004E;
+}
+
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }

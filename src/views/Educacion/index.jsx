@@ -6,9 +6,8 @@ function Educacion() {
                   <h2 className="page-section-heading text-center text-uppercase text-white">Educación</h2>
                   {/* <!-- Icon Divider--> */}
                   <div className="divider-custom divider-light">
-                      <div className="divider-custom-line"></div>
                       <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                      <div className="divider-custom-line"></div>
+                      <div className="divider-custom-line6"></div>
                   </div>
                   {/* <!-- About Section Content--> */}
                   <div className="row">
